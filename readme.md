@@ -45,6 +45,10 @@
    - 在面板的“设置”页填写 Bot Token 并保存。
    - 向你的机器人发送 `/start`，它会回复你的 Chat ID。
    - 将 Chat ID 填回面板设置中保存。
+   - 激活机器人发送消息的命令
+     ```
+     https://api.telegram.org/bot【你的Token】/setWebhook?url=https://domain-manager.【你的账号名】.workers.dev/api/telegram/webhook
+     ```
 3. **完成连接**：点击“测试发送”，如果收到测试消息，则表示通知系统已就绪。
 
 ### 机器人指令
